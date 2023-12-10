@@ -1,6 +1,6 @@
-import *as THREE from '../public/librerias/three/three.js';
-import { OrbitControls } from '../public/librerias/OrbitControls.js';
-import { GLTFLoader } from '../public/librerias/GLTFLoader.js';
+import *as THREE from './librerias/three/three.js';
+import { OrbitControls } from './librerias/OrbitControls.js';
+import { GLTFLoader } from './librerias/GLTFLoader.js';
 import { Cambiar } from './cambiar.js';
 Cambiar(1);
 let object;
